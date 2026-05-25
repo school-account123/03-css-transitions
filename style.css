@@ -17,6 +17,12 @@ h1 {
   font-size: 42px;
   margin-bottom: 0;
   text-align: center;
+  transition: font-size 0.5;
+}
+
+h1:hover {
+font: size 60px;
+transition: font-size 0.5s;
 }
 
 .description {
